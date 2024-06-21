@@ -1,0 +1,324 @@
+@media (max-width: 768px) {
+  body {
+    font-family: sans-serif;
+    line-height: 1;
+    background-color: #f4e6df;
+  }
+  .tab-logo img {
+    size: 10px;
+  }
+  header {
+    background-color: #f4e6df;
+    height: 80px;
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    padding: 0px 20px;
+  }
+  .geolab-logo {
+    height: 50px;
+  }
+  ul {
+    display: flex;
+    column-gap: 15px;
+    font-size: 14px;
+    color: #65317e;
+    font-weight: 600;
+    display: none;
+  }
+  .registracia {
+    border-radius: 8px;
+    background-color: #65317e;
+    color: #fff;
+    height: 35px;
+    width: 110px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 600;
+    display: none;
+  }
+  .burger-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    z-index: 999999999999999999;
+  }
+  .burger-menu svg {
+    width: 25px;
+  }
+
+  .menu-offscreen {
+    height: 100vh;
+    background-color: #fff;
+    width: 350px;
+    position: fixed;
+    top: 0;
+    right: -450px;
+    display: flex;
+  }
+  .menu-offscreen ul {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    row-gap: 40px;
+    font-size: 24px;
+    width: 100%;
+    padding: 80px 10px;
+    color: #000;
+  }
+  .menu-offscreen.active {
+    right: 0;
+  }
+
+  .slider {
+    height: 550px;
+    position: relative;
+  }
+  .slide {
+    height: 550px;
+    width: 100%;
+    display: none;
+  }
+  img.displaySlide {
+    display: block;
+  }
+  .slider button {
+    position: absolute;
+    cursor: pointer;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background: none;
+    font-size: 42px;
+    color: #65317e;
+    font-weight: 600;
+  }
+  .prev {
+    left: 0;
+  }
+  .next {
+    right: 0;
+  }
+  .inner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    row-gap: 20px;
+    color: #fff;
+  }
+  .slider h2 {
+    font-size: 26px;
+    font-weight: 900;
+  }
+  .button {
+    border: 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 170px;
+    font-weight: 600;
+  }
+  .course {
+    margin: 40px 40px;
+  }
+  .course h2 {
+    color: #65317e;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 80px;
+  }
+  .course-row {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+  }
+  .items {
+    width: 370px;
+  }
+  .items img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .items h3 {
+    color: #65317e;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .items p {
+    line-height: 25px;
+    color: rgb(105, 105, 105);
+  }
+}
+
+@media (max-width: 500px) {
+  body {
+    font-family: sans-serif;
+    line-height: 1;
+    background-color: #f4e6df;
+  }
+  .tab-logo img {
+    size: 10px;
+  }
+  header {
+    background-color: #f4e6df;
+    height: 80px;
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    padding: 0px 20px;
+  }
+  .geolab-logo {
+    height: 50px;
+  }
+  ul {
+    display: flex;
+    column-gap: 15px;
+    font-size: 14px;
+    color: #65317e;
+    font-weight: 600;
+    display: none;
+  }
+  .registracia {
+    border-radius: 8px;
+    background-color: #65317e;
+    color: #fff;
+    height: 35px;
+    width: 110px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 600;
+    display: none;
+  }
+  .burger-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .burger-menu svg {
+    width: 20px;
+  }
+  .menu-offscreen {
+    width: 250px;
+  }
+
+  .slider {
+    height: 450px;
+    position: relative;
+  }
+  .slide {
+    height: 450px;
+    width: 100%;
+    display: none;
+  }
+  img.displaySlide {
+    display: block;
+  }
+  .slider button {
+    position: absolute;
+    cursor: pointer;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background: none;
+    font-size: 42px;
+    color: #65317e;
+    font-weight: 600;
+  }
+  .prev {
+    left: 0;
+  }
+  .next {
+    right: 0;
+  }
+  .inner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    row-gap: 20px;
+    color: #fff;
+  }
+  .slider h2 {
+    font-size: 26px;
+    font-weight: 900;
+  }
+  .button {
+    border: 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 170px;
+    font-weight: 600;
+  }
+  .course {
+    margin: 40px 20px;
+  }
+  .course h2 {
+    color: #65317e;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 80px;
+  }
+  .course-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .items {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .items img {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  .items h3 {
+    color: #65317e;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .items p {
+    line-height: 25px;
+    color: rgb(105, 105, 105);
+  }
+}

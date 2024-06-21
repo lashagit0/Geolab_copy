@@ -1,0 +1,139 @@
+body {
+  font-family: sans-serif;
+  line-height: 1;
+  background-color: #f4e6df;
+}
+.tab-logo img {
+  size: 10px;
+}
+header {
+  background-color: #f4e6df;
+  height: 110px;
+  position: sticky;
+  top: 0;
+  z-index: 99999;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 110px;
+  align-items: center;
+  padding: 0px 95px;
+}
+.geolab-logo {
+  height: 75px;
+}
+ul {
+  display: flex;
+  column-gap: 30px;
+  font-size: 16px;
+  color: #65317e;
+  font-family: "BPG Nino Mtavruli", sans-serif;
+  font-weight: 600;
+}
+.registracia {
+  border-radius: 8px;
+  background-color: #65317e;
+  color: #fff;
+  height: 35px;
+  width: 110px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 600;
+}
+.burger-menu {
+  display: none;
+}
+.menu-offscreen {
+  display: none;
+}
+
+.slider {
+  height: 600px;
+  position: relative;
+}
+.slide {
+  height: 600px;
+  width: 100%;
+  display: none;
+}
+img.displaySlide {
+  display: block;
+}
+.slider button {
+  position: absolute;
+  cursor: pointer;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: none;
+  font-size: 42px;
+  color: #65317e;
+  font-weight: 600;
+}
+.prev {
+  left: 0;
+}
+.next {
+  right: 0;
+}
+.inner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+  color: #fff;
+}
+.slider h2 {
+  font-size: 26px;
+  font-weight: 900;
+}
+.button {
+  border: 2px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 170px;
+  font-weight: 600;
+}
+.course {
+  margin: 40px 400px;
+}
+.course h2 {
+  color: #65317e;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+.course-row {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 20px;
+}
+.items {
+  width: 370px;
+}
+.items img {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.items h3 {
+  color: #65317e;
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.items p {
+  line-height: 25px;
+  color: rgb(105, 105, 105);
+}

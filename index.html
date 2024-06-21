@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>მთავარი | GeoLab</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link
+      rel="stylesheet"
+      href="/bower_components/bpg-nino-mtavruli/css2/bpg-nino-mtavruli.css"
+    />
+    <link
+      class="tab-logo"
+      rel="icon"
+      type="image/x-icon"
+      href="images/geolab-logo.png"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img class="geolab-logo" src="images/geolab-logo.png" alt="" />
+        <ul>
+          <li>მთავარი</li>
+          <li>ჩვენ შესახებ</li>
+          <li>კურსები</li>
+          <li>პროექტები</li>
+          <li>ვიდეო ლექციები</li>
+          <li>ვორქშოფები</li>
+          <li>გალერეა</li>
+          <li>კონტაქტი</li>
+          <li>EN</li>
+        </ul>
+        <button class="registracia">რეგისტრაცია</button>
+        <button class="burger-menu">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+            <path
+              d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 
+              256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 
+              32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
+            />
+          </svg>
+        </button>
+        <div class="menu-offscreen">
+          <ul>
+            <li>მთავარი</li>
+            <li>ჩვენ შესახებ</li>
+            <li>კურსები</li>
+            <li>პროექტები</li>
+            <li>ვიდეო ლექციები</li>
+            <li>ვორქშოფები</li>
+            <li>გალერეა</li>
+            <li>კონტაქტი</li>
+            <li>EN</li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section class="slider">
+      <div class="inner-text">
+        <h2>DO IT IN GEORGIA ჯეოლაბის კურსები</h2>
+        <div class="button">დეტალურად</div>
+      </div>
+      <div class="slides">
+        <img class="slide" src="images/GeoLab-1-scaled.jpg" alt="" />
+        <img class="slide" src="images/17181071848_6c477ca28a_k.jpg" alt="" />
+        <img class="slide" src="images/17182673959_d263177684_h.jpg" alt="" />
+      </div>
+      <button class="prev" onclick="prevSlide()"><</button>
+      <button class="next" onclick="nextSlide()">></button>
+    </section>
+
+    <div class="course">
+      <h2>ჯეოლაბის კურსები</h2>
+      <div class="course-row">
+        <div class="items">
+          <a href="pythoncourse.html" target="_blank"
+            ><img src="images/purple-Python.png" alt=""
+          /></a>
+          <h3>Python (English Language Course)</h3>
+          <p>
+            This course is suitable for beginners, no prior knowledge of
+            programming is required. If you are interested in programming but
+            don't know where to start, this is the course for you. Python is
+            remarkably simple compared to many other languages and provides a
+            good foundation for you to start building your knowledge upon.
+          </p>
+        </div>
+        <div class="items">
+          <a href="css_html.html" target="_blank"
+            ><img src="images/HTMLCSS.png" alt=""
+          /></a>
+          <h3>ვებპროგრამირება Front end (HTML,CSS)</h3>
+          <p>
+            კურსის ფარგლებში მსმენელები იმ ცოდნას ეუფლებიან, რომელიც მათ
+            საშუალებას აძლევს, გაერკვნენ ვებგვერდის ფუნქციონირების პრინციპებში,
+            ააწყონ სტატიკური ვებგვერდი ან, საჭიროების შემთხვევაში, ცვლილებები
+            შეიტანონ არსებული ვებგვერდის პროგრამულ კოდში.
+          </p>
+        </div>
+        <div class="items">
+          <a href="unity.html" target="_blank"
+            ><img src="images/unity.png" alt=""
+          /></a>
+          <h3>თამაშების დეველოპმენტი Unity</h3>
+          <p>
+            კურსის ფარგლებში სტუდენტები იმ ძირითად პრინციპებს სწავლობენ, რომელზე
+            დაყრდნობითაც კომპიუტერული თამაშები იქმნება. ლექტორის მომზადებული
+            სასწავლო მასალის მიხედვით, სტუდენტები თავად ქმნიან Unity-ში
+            კროსპლატფორმულ თამაშებს.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

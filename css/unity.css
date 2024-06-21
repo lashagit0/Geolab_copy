@@ -1,0 +1,176 @@
+body {
+  background-color: #f4e6df;
+  font-family: helvetica;
+}
+header {
+  background-color: #f4e6df;
+  height: 110px;
+  position: sticky;
+  top: 0;
+  z-index: 99999;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 110px;
+  align-items: center;
+  padding: 0px 95px;
+}
+.geolab-logo {
+  height: 75px;
+}
+.header-ul {
+  display: flex;
+  column-gap: 30px;
+  font-size: 16px;
+  font-family: "BPG Nino Mtavruli", sans-serif;
+  font-weight: 600;
+  color: #65317e;
+}
+.registracia {
+  border-radius: 8px;
+  background-color: #65317e;
+  color: #fff;
+  height: 35px;
+  width: 110px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.main-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 400px;
+  column-gap: 40px;
+}
+.image-sec {
+  background-image: url("../images/photo9.png");
+  background-position: -70px;
+  height: 800px;
+  background-repeat: no-repeat;
+  width: 50%;
+  margin-top: 180px;
+}
+.text-sec {
+  width: 50%;
+  margin-top: 50px;
+}
+.text-sec h2 {
+  color: #65317e;
+  font-size: 22px;
+  font-weight: 600;
+}
+.text-sec ul {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 20px;
+  width: 100%;
+  margin-top: 30px;
+  font-size: 22px;
+  font-weight: 600;
+  padding-right: 100px;
+}
+.purple {
+  color: #65317e;
+}
+.text-sec li {
+  text-align: center;
+  font-weight: 600;
+}
+.text-sec p {
+  margin-top: 20px;
+  line-height: 28px;
+  width: 570px;
+  letter-spacing: 0.5px;
+}
+.text-sec span {
+  display: block;
+  margin-bottom: 20px;
+}
+.low-text {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  text-align: left;
+  width: 700px;
+}
+.low-text h3 {
+  margin-bottom: 25px;
+  font-weight: 500;
+  font-size: 16px;
+}
+.low-text li {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  list-style: disc;
+  position: relative;
+  left: 20px;
+}
+.button-sec {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+.button-sec button {
+  background-color: #6f368a;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  height: 38px;
+  width: 150px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.teacher-sec {
+  margin-top: 30px;
+}
+.teacher-sec h2 {
+  margin-bottom: 50px;
+}
+.teacher-img {
+  background-image: url("/images/ცოტნე-დევდარიანი.jpg");
+  width: 280px;
+  height: 280px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sponsors {
+  margin-bottom: 150px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 610px;
+  margin-top: 150px;
+}
+.sponsors img {
+  width: 200px;
+  height: 100px;
+}
+
+footer {
+  padding: 70px 400px;
+  height: 250px;
+  padding-bottom: 30px;
+}
+.footer-wrapper {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(63, 62, 62);
+  line-height: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-row {
+  list-style: none;
+}
+.footer-row p {
+  width: 300px;
+}
+.footer-row span {
+  display: block;
+  width: 20px;
+}
